@@ -29,12 +29,12 @@
                 android:id="@+id/text_welcome"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
+                android:layout_marginStart="25dp"
                 android:textSize="18sp"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
-                tools:text="Welcome Anonymous"
-                />
+                tools:text="Welcome Anonymous" />
 
             <TextView
                 android:id="@+id/text_balance"
